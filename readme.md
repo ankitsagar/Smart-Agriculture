@@ -81,13 +81,13 @@ Data    --------------------------------------  ESP Pin 2
 
 ### Module 2
 
-__YL-69 Soil Sensor__&nbsp;&nbsp;&nbsp;&nbsp;__Arduino UNO__  
+__YL-69 Soil Sensor__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__Arduino UNO__  
 Vcc    --------------------------------------   5V  
 Gnd   --------------------------------------   Gnd  
 A0     ---------------------------------------  A0  
 
 
-__ESP8266 ESP-01__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__Arduino UNO__  
+__ESP8266 ESP-01__&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__Arduino UNO__  
 Vcc     ---------------------------------------    3.3V  
 Gnd     --------------------------------------     Gnd  
 Rx      ---------------------------------------    Pin 7  
