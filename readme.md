@@ -4,7 +4,7 @@ The project aims making use of evolving technology i.e. IoT and smart agricultur
 
 ## Modules:
 
-[Flow Diagram](/modules/Diagram12.jpg)
+![Flow Diagram](modules/Diagram12.jpg)
 
 ### Module-1:
 
@@ -60,7 +60,7 @@ I am using [ThingsBoard](https://thingsboard.io/) to visualize data i.e great op
 __dataSubscriber.py__: This Script is used to subscribe data of all areas from the broker and write it into different text files.
 
 __thingsboardNorth.py and thingsboardSouth.py__: These Scripts will scrap data from text files and upload it to ThingsBoard Server.
-[ThingsBoard Dashboard](/visualization/screenshot4.jpg)
+![](visualization/screenshot4.jpg)
 
 [Link To Dashboard](https://demo.thingsboard.io/dashboards/d7455310-065d-11e8-83e6-1d8d2edf4f93?publicId=2ade3530-f6a2-11e7-abe9-1d8d2edf4f93)
 
