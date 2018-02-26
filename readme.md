@@ -4,7 +4,7 @@ The project aims making use of evolving technology i.e. IoT and smart agricultur
 
 ## Modules:
 
-[<img src="https://photos.app.goo.gl/XxXOqdzSQ9leZOxM2" width="100%" alt="Module Detail">]
+[Flow Diagram](/modules/Diagram12.jpg)
 
 ### Module-1:
 
@@ -60,42 +60,43 @@ I am using [ThingsBoard](https://thingsboard.io/) to visualize data i.e great op
 __dataSubscriber.py__: This Script is used to subscribe data of all areas from the broker and write it into different text files.
 
 __thingsboardNorth.py and thingsboardSouth.py__: These Scripts will scrap data from text files and upload it to ThingsBoard Server.
+[ThingsBoard Dashboard](/visualization/screenshot4.jpg)
 
-[<img src="https://photos.app.goo.gl/1cc6pQpBsqAeLx6I2" width="100%" alt="field monitoring">](https://demo.thingsboard.io/dashboards/d7455310-065d-11e8-83e6-1d8d2edf4f93?publicId=2ade3530-f6a2-11e7-abe9-1d8d2edf4f93)
+[Link To Dashboard](https://demo.thingsboard.io/dashboards/d7455310-065d-11e8-83e6-1d8d2edf4f93?publicId=2ade3530-f6a2-11e7-abe9-1d8d2edf4f93)
 
 ## Wiring:
 
 ### Module 1
 
-__ESP8266 ESP-01__
+__ESP8266 ESP-01__  
 
-Vcc     --------------------------------------     3.3V
-Gnd    --------------------------------------     Gnd
-Pin 2   --------------------------------------     DHT Data pin
+Vcc     --------------------------------------     3.3V  
+Gnd    --------------------------------------     Gnd  
+Pin 2   --------------------------------------     DHT Data pin  
 
-__DHT11__
-Vcc      --------------------------------------  5V
-Gnd     --------------------------------------   Gnd
-Data    --------------------------------------  ESP Pin 2
+__DHT11__  
+Vcc      --------------------------------------  5V  
+Gnd     --------------------------------------   Gnd  
+Data    --------------------------------------  ESP Pin 2  
 
 ### Module 2
 
-__YL-69 Soil Sensor__                  __Arduino UNO__
-Vcc    --------------------------------------   5V
-Gnd   --------------------------------------   Gnd
-A0     ---------------------------------------  A0
+__YL-69 Soil Sensor__                 __Arduino UNO__  
+Vcc    --------------------------------------   5V  
+Gnd   --------------------------------------   Gnd  
+A0     ---------------------------------------  A0  
 
 
-__ESP8266 ESP-01__                    __Arduino UNO__
-Vcc     ---------------------------------------    3.3V
-Gnd    --------------------------------------     Gnd
-Rx      ---------------------------------------    Pin 7
-Tx      ---------------------------------------    Pin 8
+__ESP8266 ESP-01__                    __Arduino UNO__  
+Vcc     ---------------------------------------    3.3V  
+Gnd     --------------------------------------     Gnd  
+Rx      ---------------------------------------    Pin 7  
+Tx      ---------------------------------------    Pin 8  
 
 ### Module 3
 
-__Relay(2 Channel)__
-IN1        ------------------------    ESP pin 0
-IN1        ------------------------    ESP pin 2
-Vcc       ------------------------    5V
-Gnd      ------------------------    Gnd
+__Relay(2 Channel)__  
+IN1        ------------------------    ESP pin 0  
+IN1        ------------------------    ESP pin 2  
+Vcc       ------------------------    5V  
+Gnd      ------------------------    Gnd  
